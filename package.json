@@ -1,0 +1,23 @@
+{
+  "name": "storiesapi",
+  "version": "1.0.0",
+  "description": "A storytelling API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/arobicha/storiesapi"
+  },
+  "author": "Adam Robichaud",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.0.1",
+    "node-bcrypt": "0.0.1",
+    "restify": "^4.1.1",
+    "restify-oauth2": "^4.0.3",
+    "rethinkdb": "^2.3.3"
+  }
+}
